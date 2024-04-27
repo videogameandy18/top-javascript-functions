@@ -1,5 +1,4 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const lastElement = arr => arr[arr.length - 1];
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+console.log("1 || 2 = "+(1 || 2));
 const result = await makeHttpRequest(url);
-const goToTop = () => window.scrollTo(0, 0);
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const scriptRootPath = path.join(repositoryRootPath, 'script');
