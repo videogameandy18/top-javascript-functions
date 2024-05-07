@@ -1,3 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const flattenedArray = arr => [].concat(...arr);
-const isEven = (num) => num % 2 === 0;
+console.log(1 +  "2" + "2");
+const reversedString = str => str.split('').reverse().join('');
+var c = new Counter(); c.add(); c.add(); c.add();
