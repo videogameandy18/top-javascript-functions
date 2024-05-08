@@ -1,1 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+[foo, bar] = [bar, foo];
+const toggleBool = () => (bool = !bool);
