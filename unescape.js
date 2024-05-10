@@ -1,2 +1,3 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+console.log( "A" - "B" + 2);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
