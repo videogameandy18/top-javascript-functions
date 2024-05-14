@@ -1,1 +1,2 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
