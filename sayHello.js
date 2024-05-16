@@ -1,3 +1,3 @@
-console.log(1 +  "2" + "2");
-const reversedString = str => str.split('').reverse().join('');
-var c = new Counter(); c.add(); c.add(); c.add();
+console.log(false === '0');
+console.log(+"1" +  "1" + "2");
+function myAPITS(someString: string, someNum: number) { ... };
