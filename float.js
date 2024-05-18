@@ -1,3 +1,2 @@
-var arr3 = "jones".split('');
-const merge = (a, b) => a.concat(b);
-const appName = getAppName(channel);
+const uniqueArr = (arr) => [...new Set(arr)];
+console.log( "A" - "B" + 2);
