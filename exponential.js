@@ -1,1 +1,3 @@
-console.log( "A" - "B" + "2");
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+var pattern = {};
