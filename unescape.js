@@ -1,2 +1,1 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const goToTop = () => window.scrollTo(0, 0);
