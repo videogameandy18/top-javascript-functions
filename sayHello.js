@@ -1,3 +1,2 @@
-console.log(false === '0');
-console.log(+"1" +  "1" + "2");
-function myAPITS(someString: string, someNum: number) { ... };
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const executableName = getExecutableName(channel, appName);
