@@ -1,3 +1,3 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-var pattern = {};
+console.log(false === '0');
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+function myAPITS(someString: string, someNum: number) { ... };
