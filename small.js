@@ -1,3 +1,3 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const stringReverse = str => str.split("").reverse().join("");
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const results = await Promise.all(resultingPromises);
+const fullName = name || 'buddy';
