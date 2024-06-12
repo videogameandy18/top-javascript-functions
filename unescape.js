@@ -1,2 +1,2 @@
-const minNumber = arr => Math.min(...arr);
-console.log(false === '0');
+const arrayContains = (arr, element) => arr.includes(element);
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
