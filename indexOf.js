@@ -1,2 +1,1 @@
-const channel = getChannel(computedAppVersion);
-[foo, bar] = [bar, foo];
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
