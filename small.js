@@ -1,3 +1,3 @@
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
-const results = await Promise.all(resultingPromises);
-const fullName = name || 'buddy';
+console.log("0 || 1 = "+(0 || 1));
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
