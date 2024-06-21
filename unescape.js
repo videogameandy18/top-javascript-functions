@@ -1,3 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-console.log(typeof typeof 1);
-[foo, bar] = [bar, foo];
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const currentDate = () => new Date().toLocaleDateString('en-US');
