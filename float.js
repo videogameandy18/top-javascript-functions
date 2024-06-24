@@ -1,2 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+const appName = getAppName(channel);
