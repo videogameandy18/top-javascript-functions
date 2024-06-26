@@ -1,3 +1,3 @@
-const flattenedArray = arr => [].concat(...arr);
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const removeDuplicates = (arr) => [...new Set(arr)];
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const isTabInView = () => !document.hidden;
