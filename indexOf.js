@@ -1,3 +1,3 @@
-const merge = (a, b) => [...a, ...b];
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const merge = (a, b) => a.concat(b);
+const minNumber = arr => Math.min(...arr);
+var c = new Counter(); c.add(); c.add(); c.add();
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
