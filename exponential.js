@@ -1,2 +1,3 @@
-const removeDuplicates = (arr) => [...new Set(arr)];
-var DELIM_SIZE = 4;
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const updated = numbers.filter(element => element > 6);
+const repositoryRootPath = path.resolve(__dirname, '..');
