@@ -1,3 +1,1 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
