@@ -1,3 +1,2 @@
-const minNumber = arr => Math.min(...arr);
-var c = new Counter(); c.add(); c.add(); c.add();
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+var DELIM_SIZE = 4;
+const isEmptyArray = arr => !arr.length;
