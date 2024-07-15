@@ -1,2 +1,3 @@
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-const appName = getAppName(channel);
+const uniqueArr = (arr) => [...new Set(arr)];
+console.log(false == '0');
+const merge = [...new Set(a.concat(b))];
