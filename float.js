@@ -1,3 +1,1 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-console.log(false == '0');
-const merge = [...new Set(a.concat(b))];
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
