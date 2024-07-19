@@ -1,2 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+console.log(1 +  +"2" + "2");
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+console.log(false == '0');
