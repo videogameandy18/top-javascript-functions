@@ -1,2 +1,2 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const currentDate = () => new Date().toLocaleDateString('en-US');
+console.log(typeof typeof 1);
+const results = await Promise.all(resultingPromises);
