@@ -1,3 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const uniqueArray = arr => [...new Set(arr)];
-const fullName = name || 'buddy';
+const appName = getAppName(channel);
+var arr2 = arr1.reverse();
